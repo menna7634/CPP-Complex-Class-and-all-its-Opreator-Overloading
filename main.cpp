@@ -24,19 +24,19 @@ int main() {
     cout << "A / B = " << A / B << endl;
 
     Complex C1 = A; C1 += B;
-    cout << "A += B → " << C1 << endl;
+    cout << "A += B = " << C1 << endl;
 
     Complex C2 = A; C2 -= B;
-    cout << "A -= B → " << C2 << endl;
+    cout << "A -= B = " << C2 << endl;
 
     Complex C3 = A; C3 *= B;
-    cout << "A *= B → " << C3 << endl;
+    cout << "A *= B = " << C3 << endl;
 
     Complex C4 = A; C4 /= B;
-    cout << "A /= B → " << C4 << endl;
+    cout << "A /= B = " << C4 << endl;
 
-    cout << "\nA == B → " << (A == B ? "True" : "False") << endl;
-    cout << "A != B → " << (A != B ? "True" : "False") << endl;
+    cout << "\nA == B = " << (A == B ? "True" : "False") << endl;
+    cout << "A != B = " << (A != B ? "True" : "False") << endl;
 
     return 0;
 }
